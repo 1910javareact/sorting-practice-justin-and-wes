@@ -33,6 +33,14 @@ public class Driver {
 		
 		long mergesort = t2 - t1;
 		
+		
+		
+		int[] array2 = {10, 64, 3, 57, 81, 2}; 
+		BubbleSort.sort(array2);  
+		for(int i:array2) {
+			System.out.println("Sorted set of elements: " + i );
+		}
+		
 		if(Arrays.equals(arr, arr2)) {
 			System.out.println("It took bubblesort algorithm " + bubblesort + " ns to sort");
 			System.out.println("It took mergesort algorithm " + mergesort + " ns to sort");
